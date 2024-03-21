@@ -18,7 +18,7 @@ const GeminiChat = () => {
   const [loading, setLoading] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
 
-  const API_KEY = "AIzaSyBJH2xrrsHEVzh9oJ9hFnlMgV7Ev78Fatg";
+  const API_KEY = "--YOUR_API_KEY--";
 
   useEffect(() => {
     const startChat = async () => {
